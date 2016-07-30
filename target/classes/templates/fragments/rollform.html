@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<style>
+rollform-attribute {
+	text-align: center;
+}
+</style>
+<link th:href="@{/css/index.css}" rel="stylesheet" media="screen" />
+</head>
+<body>
+
+	<div id="rollform" th:fragment="rollform">
+		<fieldset>
+			<legend style="color: #fff;">SLP-formulär</legend>
+		</fieldset>
+
+		<formtext style="color: #fff;">
+		<p>
+			Namn:<span class="rollform-attribute" th:text="${npc.name}"></span>
+		</p>
+		<p>
+			Syssla: <span class="rollform-attribute" th:text="${npc.role}"></span>
+		</p>
+		<p>
+			Kännetecken:<span class="rollform-attribute"
+				th:text="${npc.description}"></span>
+		</p>
+		<p>
+			Styrka:<span class="rollform-attribute" th:text="${npc.strenght}"></span>
+		</p>
+		<p>
+			Kyla:<span class="rollform-attribute" th:text="${npc.coolness}"></span>
+		</p>
+		<p>
+			Skärpa:<span class="rollform-attribute" th:text="${npc.sharpness}"></span>
+		</p>
+		<p>
+			Känsla:<span class="rollform-attribute" th:text="${npc.feeling}"></span>
+		</p>
+		<p>
+			Färdighet:<span class="rollform-attribute" th:text="${npc.skill1}"></span>
+		</p>
+		<p>
+			Färdighet:<span class="rollform-attribute" th:text="${npc.skill2}"></span>
+		</p>
+		<p>
+			Färdighet:<span class="rollform-attribute" th:text="${npc.skill3}"></span>
+		</p>
+		<p>
+			Mutationer:<span class="rollform-attribute" th:text="${npc.mutation}"></span>
+		</p>
+		<p>
+			Vapen:<span class="rollform-attribute" th:text="${npc.weapon}"></span>
+		</p>
+		<p>
+			Krubb:<span class="rollform-attribute" th:text="${npc.food}"></span>
+		</p>
+		<p>
+			Vatten:<span class="rollform-attribute" th:text="${npc.water}"></span>
+		</p>
+		<p>
+			Ammunition:<span class="rollform-attribute"
+				th:text="${npc.amunition}"></span>
+		</p>
+		</formtext>
+
+	</div>
+</body>
+
+</html>

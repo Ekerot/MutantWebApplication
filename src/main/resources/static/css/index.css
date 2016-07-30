@@ -1,0 +1,98 @@
+/*----- Tabs -----*/
+.tabs {
+	width: 100%;
+	display: inline-block;
+}
+
+/*----- Tab Links -----*/
+/* Clearfix */
+.tab-links:after {
+	display: block;
+	clear: both;
+	content: '';
+}
+
+.tab-links li {
+	margin: 0px 5px;
+	float: left;
+	list-style: none;
+}
+
+.tab-links a {
+	padding: 9px 15px;
+	display: inline-block;
+	border-radius: 3px 3px 0px 0px;
+	background: url("http://i.imgur.com/4Nhw1Lt.jpg");
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+	transition: all linear 0.15s;
+}
+
+.tab-links a:hover {
+	background: #fff;
+	text-decoration: none;
+}
+
+li.active a, li.active a:hover {
+	background: #fff;
+	color: #753712;
+}
+
+/*----- Content of Tabs -----*/
+.tab-content {
+	padding: 15px;
+	border-radius: 3px;
+	box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
+	background: #fff;
+	
+}
+
+.tab {
+	display: none;
+}
+
+.tab.active {
+	display: block;
+}
+
+#rollform {
+	border-radius: 15px 50px;
+	background: url("http://i.imgur.com/4Nhw1Lt.jpg"); repeat;
+	background-position: left top;
+	background-repeat: repeat;
+	margin: 100px;
+	padding: 90px;
+	background-position: left top;
+	background-repeat: repeat;
+}
+
+#menu {
+	
+	padding: 20px
+	
+}
+
+.formtext {
+	color: #fff;
+	size: 12px;
+	margin: auto;
+	padding: 20px
+}
+
+btn { 
+	color : #fff;
+	outline: 0;
+	shodow: none;
+	color: #fff;
+}
+
+#rightpic {
+	background-position: top;
+}
+
+#rollform-attribute {
+	text-align: right
+}
+
+

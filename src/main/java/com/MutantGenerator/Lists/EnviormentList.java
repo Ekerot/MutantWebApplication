@@ -1,8 +1,8 @@
 package com.MutantGenerator.Lists;
 
-import java.util.ArrayList;
-
 import com.MutantGenerator.helpers.DiceResults;
+
+import java.util.ArrayList;
 
 public class EnviormentList {
 

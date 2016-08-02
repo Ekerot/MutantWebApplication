@@ -1,9 +1,9 @@
 package com.MutantGenerator.Lists;
 
+import com.MutantGenerator.helpers.DiceResults;
+
 import java.util.ArrayList;
 import java.util.Random;
-
-import com.MutantGenerator.helpers.DiceResults;
 
 public class ListsNPC {
 

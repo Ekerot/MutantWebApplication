@@ -1,9 +1,9 @@
 package com.MutantGenerator.npc;
 
-import java.util.Random;
-
-import com.MutantGenerator.Lists.ListsNPC;
 import com.MutantGenerator.helpers.DiceRoller;
+import com.MutantGenerator.Lists.ListsNPC;
+
+import java.util.Random;
 
 public class NPC {
 

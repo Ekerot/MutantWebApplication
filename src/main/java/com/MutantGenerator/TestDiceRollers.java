@@ -1,8 +1,6 @@
-package com.MutantGenerator.helpers;
+package com.MutantGenerator;
 
-import com.MutantGenerator.npc.Boss;
-
-import com.MutantGenerator.world.Enviorment;;
+;import com.MutantGenerator.npc.Boss;
 
 /**
  * @author ekerot

@@ -6,19 +6,19 @@ public class Skrotskalle extends NPC {
 
 	private static Random rand = new Random();
 
-	private static String name = NPC.generateName();
+	private static String name = generateName();
 	private static String role = "Skrotskalle";
 
-	private static String description = NPC.generateDescription();
-	private static int strenght = NPC.generateAttribute(3);
-	private static int coolness = NPC.generateAttribute(3);
-	private static int sharpness = NPC.generateAttribute(1);
-	private static int feeling = NPC.generateAttribute(2);
-	private static String mutation = NPC.generateMutation();
+	private static String description = generateDescription();
+	private static int strenght = generateAttribute(3);
+	private static int coolness = generateAttribute(3);
+	private static int sharpness = generateAttribute(1);
+	private static int feeling = generateAttribute(2);
+	private static String mutation = generateMutation();
 	private static String skill1 = "Mecka FV 3";
-	private static String skill2 = NPC.generateSkill();
-	private static String skill3 = NPC.generateSkill();
-	private static String weapon = NPC.generateWeapon();
+	private static String skill2 = generateSkill();
+	private static String skill3 = generateSkill();
+	private static String weapon = generateWeapon();
 	private static int amunition = rand.nextInt(6) + 1;
 	private static int food = rand.nextInt(6) + 1;
 	private static int water = rand.nextInt(12) + 1;

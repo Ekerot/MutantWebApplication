@@ -1,12 +1,10 @@
 package com.MutantGenerator.web;
 
+import com.MutantGenerator.npc.NPC;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
-
-import com.MutantGenerator.npc.NPC;
-import com.MutantGenerator.npc.NpcResolver;
 
 @Controller
 public class SlpController {

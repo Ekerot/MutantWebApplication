@@ -1,4 +1,6 @@
-package com.MutantGenerator.npc;
+package com.MutantGenerator.web;
+
+import com.MutantGenerator.npc.*;
 
 public class NpcResolver {
 
